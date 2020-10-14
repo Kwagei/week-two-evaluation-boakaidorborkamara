@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+#container{
+    width: 80%;
+    height: 660px;
+    margin: 0px auto;
+    background-color: rgb(24, 22, 22);
+}
+
+header nav{
+    overflow: hidden;
+    padding: 20px;
+}
+
+header nav h2{
+    width: 50px;
+    float: left;
+    letter-spacing: 2px;
+    
+}
+
+nav ul{
+    float: right;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 20px;
+    letter-spacing: 2px;
+}
+
+a{
+    text-decoration: none;
+    color: yellow;
+}
+
+a:hover{
+    color: white;
+}
+
+#Sec1{
+    text-align: center;
+    margin-top: 30px;
+}
+
+#Sec1 img{
+    width: 20%;
+    border-radius: 50%;
+    border: yellow 2px solid;
+}
+
+#Sec1 h1{
+    margin-top:25px ;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+#Sec1 h3{
+    margin-top:10px ;
+    font-size: 20px;
+    font-weight: lighter;
+    font-style: italic;
+    letter-spacing: 2px;
+    line-height: 25px;
+}
+
+#Sec1 h3 span{
+    color: yellow;}
+
+footer{
+    background-color: yellow;
+    color: black;
+    padding: 10px;
+    margin-top: 110px;
+    text-align: center;
+    border-bottom: 100px;
+}
